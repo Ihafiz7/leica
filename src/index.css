@@ -1,0 +1,13 @@
+@import url(https://db.onlinewebfonts.com/c/772c573b7cfc2b8c979381d05754e110?family=Corporate+S);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul{
+  @apply font-bold text-base text-white;
+}
+
+.li{
+  @apply font-normal text-sm text-gray-400 hover:text-white;
+}
